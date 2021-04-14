@@ -1,0 +1,82 @@
+.footer{
+    padding: 0em 0 2em 0;
+    /* background: rgb(182, 133, 133); */
+}
+
+.contact-footer{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.2em;
+}
+
+    .contact-footer h3{
+    font-size: 2em;
+
+    }
+.contact-footer p{
+    font-size: 1.3em;
+    margin: 1em 0 2em 0;
+}
+.contact-footer a{
+    font-size: 1.7em;
+text-decoration: underline;
+}
+
+.main-footer {
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 25px; */   
+     padding:6em 0 0em  0;
+
+  }
+  
+.main-footer .logo {
+    font-size: 2.5em;
+    /* background: white;  */
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+.main-footer .logo a{color: #fff;}
+.darkmode--activated .logo a{
+      color: rgb(0,0,0);
+  }
+  .footer-links {
+    display: flex;
+    font-size: 2em;
+  font-family: 'Noto Sans JP', sans-serif;
+
+  }
+  .footer-links li {
+    padding:  10px 40px;
+    /* background: rgb(255, 255, 255); */
+    /* color: #ff; */
+  }
+  
+  .footer-links li a{color: #fff;}
+  .darkmode--activated .footer-links li a{
+        color: rgb(0,0,0);
+  }
+  body.darkmode--activated .footer-links li {
+      color: rgb(0,0,0);
+  }
+  
+  .footer span{
+    display: block;
+    font-size: 10px;
+    margin-left:90vw ;
+  }
+
+
+  @media(max-width:576px){
+    .footer{
+    margin: 0 1em;
+    }
+    .contact-footer h5{
+      font-size: 1em;
+  text-decoration: underline;
+  }
+  
+  .footer-links { 
+    font-size: 1.1em;
+  }
+}
