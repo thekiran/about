@@ -21,11 +21,11 @@ function App() {
     },[])
 
   return (
-    <BrowserRouter> 
-    {/* <Homepage /> */}
-      <Route exact path="/" component={Homepage} />
-      <Route exact path="/about" component={Ab} />
-    </BrowserRouter>
+    <React.Fragment> 
+    <Ab />
+      {/* <Route exact path="/" component={Ab} /> */}
+      {/* <Route exact path="/about" component={Ab} /> */}
+    </React.Fragment>
   );
 }
 
